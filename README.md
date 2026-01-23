@@ -8,24 +8,24 @@ src="https://files.catbox.moe/9sazwf.jpg">
 
    </p>
 <p align="center">
-<a href="https://github.com/Kevintech-hub"><img title="Author" src="https://img.shields.io/badge/Kelvin Tech-purple?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@malvintech2"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/256742932677"><img title="Author" src="https://img.shields.io/badge/Contact Me-darkgreen?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/kiproptech-hub"><img title="Author" src="https://img.shields.io/badge/kiprop Tech-purple?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@kiproptech2"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/256742932677"><img title="Author" src="https://img.shields.io/badge/Contact Me-darkgreen?style=for-the-badge&logo=whatsapp"></a>
 <p/> 
 
  <p align="center">
-<a href="https://github.com/Kevintech-hub/followers"><img title="Followers" src="https://img.shields.io/github/followers/Kevintech-hub?color=purple&style=flat-square"></a>
-<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Kevintech-hub/Vinic-Xmd-?color=blue&style=flat-square"></a>
-<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kevintech-hub/Vinic-Xmd-?color=blue&style=flat-square"></a>
-<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Kevintech-hub/Vinic-Xmd-?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/"><img title="Size" src="https://img.shields.io/github/repo-size/Kevintech-hub/Vinic-Xmd-?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKevintech-hub%2FVinic-Xmd-&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;</a>
+<a href="https://github.com/kiproptech-hub/followers"><img title="Followers" src="https://img.shields.io/github/followers/kiproptech-hub?color=purple&style=flat-square"></a>
+<a href="https://github.com/kiproptech-hub/Vinic-Xmd-/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Kkiproptech-hub/Vinic-Xmd-?color=blue&style=flat-square"></a>
+<a href="https://github.com/kiproptech-hub/Vinic-Xmd-/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kiproptech-hub/Vinic-Xmd-?color=blue&style=flat-square"></a>
+<a href="https://github.com/kiproptech-hub/Vinic-Xmd-/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kiproptech-hub/Vinic-Xmd-?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/kiproptech-hub/Vinic-Xmd-/"><img title="Size" src="https://img.shields.io/github/repo-size/kiproptech-hub/Vinic-Xmd-?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkiproptech-hub%2FVinic-Xmd-&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/kiproptech-hub/Vinic-Xmd-/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;</a>
 
 <p align="center">
-<a href="https://github.com/Kevintech-hub/Vinic-Xmd-"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Kevintech-hub&label=VIEWS&style=flat-square&color=blue" />
+<a href="https://github.com/kiproptech-hub/Vinic-Xmd-"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=kiproptech-hub&label=VIEWS&style=flat-square&color=blue" />
 </a>
 <p align="center">
-  <a href="https://github.com/Kevintech-hub/Vinic-Xmd-"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v1.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
+  <a href="https://github.com/kiproptech-hub/Vinic-Xmd-"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v1.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
 
 <p align='center'>
     </p>
@@ -50,7 +50,7 @@ src="https://files.catbox.moe/9sazwf.jpg">
 <p align="center">
     <strong>3. GET SESSION ID (ALTERNATIVE)</strong>
     <br>
-    <a href="https://vinic-xmd-pair-2-kevintech.onrender.com" target="_blank">
+    <a href="https://vinic-xmd-pair-2-kiproptech.onrender.com" target="_blank">
         <img alt="PAIR2" src="https://img.shields.io/badge/Pair2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkgreen&color=darkgreen"/>
     </a>
 </p>
@@ -91,7 +91,7 @@ To start, fork this repository to your own GitHub account by clicking the button
 <br>
 > Click below to download the bot file :
 <p align="left">
-<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20FILES-green" alt="Rainhost Files" width="150"></a>
+<a href="https://github.com/kiproptech-hub/Vinic-Xmd-/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20FILES-green" alt="Rainhost Files" width="150"></a>
 <br>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
   
@@ -202,7 +202,7 @@ npm i -g pm2 && pm2 start index.js -f && pm2 save && pm2 logs
 ### Thank You Dear
 
 > DEVELOPER OF VINIC-XMD 
-- [KEVINTECH](https://github.comTKevintech-hub)
+- [KEVINTECH](https://github.comTkiproptech-hub)
 - Creator and Owner Of VINIC-XMD 
 
 > VINIC-XMD Helper
