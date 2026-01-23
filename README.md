@@ -1,176 +1,220 @@
-{
-  "name": "whatsapp-web-bot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "body-parser": "^1.20.2",
-    "whatsapp-web.js": "^1.20.0",
-    "qrcode-terminal": "^0.12.0"
-  }
-}
-name=index.js
-const express = require('express');
-const bodyParser = require('body-parser');
-const qrcode = require('qrcode-terminal');
-const { Client, LocalAuth, MessageMedia } = require('whatsapp-web.js');
 
-const app = express();
-app.use(bodyParser.json());
 
-// Initialize WhatsApp client with LocalAuth (session persisted to .wwebjs_auth)
-const client = new Client({
-  authStrategy: new LocalAuth()
-});
+<img align="center" height="auto"
+src="https://files.catbox.moe/9sazwf.jpg">
 
-// QR code for initial auth
-client.on('qr', qr => {
-  console.log('Scan this QR with your phone:');
-  qrcode.generate(qr, { small: true });
-});
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=V+I+N+I+C+💯+▇)](https://git.io/typing-svg)
+<br>
 
-// Ready event
-client.on('ready', () => {
-  console.log('WhatsApp client is ready');
-});
+   </p>
+<p align="center">
+<a href="https://github.com/Kevintech-hub"><img title="Author" src="https://img.shields.io/badge/Kelvin Tech-purple?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@malvintech2"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/256742932677"><img title="Author" src="https://img.shields.io/badge/Contact Me-darkgreen?style=for-the-badge&logo=whatsapp"></a>
+<p/> 
 
-// Incoming messages handler
-client.on('message', async msg => {
-  console.log('Message from', msg.from, ':', msg.body);
-  // simple command: reply 'pong' to 'ping'
-  if (msg.body && msg.body.toLowerCase() === 'ping') {
-    await msg.reply('pong');
-  }
+ <p align="center">
+<a href="https://github.com/Kevintech-hub/followers"><img title="Followers" src="https://img.shields.io/github/followers/Kevintech-hub?color=purple&style=flat-square"></a>
+<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Kevintech-hub/Vinic-Xmd-?color=blue&style=flat-square"></a>
+<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kevintech-hub/Vinic-Xmd-?color=blue&style=flat-square"></a>
+<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Kevintech-hub/Vinic-Xmd-?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/"><img title="Size" src="https://img.shields.io/github/repo-size/Kevintech-hub/Vinic-Xmd-?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKevintech-hub%2FVinic-Xmd-&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;</a>
 
-  // echo example
-  if (msg.body && msg.body.toLowerCase().startsWith('echo ')) {
-    const text = msg.body.slice(5);
-    await msg.reply(`You said: ${text}`);
-  }
-});
+<p align="center">
+<a href="https://github.com/Kevintech-hub/Vinic-Xmd-"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Kevintech-hub&label=VIEWS&style=flat-square&color=blue" />
+</a>
+<p align="center">
+  <a href="https://github.com/Kevintech-hub/Vinic-Xmd-"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v1.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
 
-// Initialize client
-client.initialize();
+<p align='center'>
+    </p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
-// HTTP API to send messages from other services
-app.post('/send', async (req, res) => {
-  const { number, message } = req.body;
-  if (!number || !message) return res.status(400).json({ error: 'number and message required' });
+<p align="center">
+    <strong>1. JOIN WHATSAPP GROUP</strong>
+  <br>
+    <a href="https://chat.whatsapp.com/Lpg0aGi5Ar4Iy9Ix2wHgnN?mode=wwt" target="_blank">
+        <img alt="Join now" src="https://img.shields.io/badge/Join now-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue"/>
+    </a>
+</p>
 
-  // number format: country code + number, e.g. "15551234567" -> "15551234567@c.us"
-  const chatId = number.includes('@') ? number : `${number}@c.us`;
+<p align="center">
+    <strong>2. GET SESSION ID</strong>
+    <br>
+    <a href="https://vinic-xmd-pairing-site-dsf-crew-devs.onrender.com" target="_blank">
+        <img alt="WEBSITE" src="https://img.shields.io/badge/Pair-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkred&color=darkred"/>
+    </a>
+</p>
 
-  try {
-    const sent = await client.sendMessage(chatId, message);
-    return res.json({ id: sent.id._serialized });
-  } catch (err) {
-    console.error(err);
-    return res.status(500).json({ error: err.message });
-  }
-});
+<p align="center">
+    <strong>3. GET SESSION ID (ALTERNATIVE)</strong>
+    <br>
+    <a href="https://vinic-xmd-pair-2-kevintech.onrender.com" target="_blank">
+        <img alt="PAIR2" src="https://img.shields.io/badge/Pair2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkgreen&color=darkgreen"/>
+    </a>
+</p>
 
-// Send media example (multipart / base64 or local file path)
-app.post('/send-media', async (req, res) => {
-  // Example expects JSON with { number, caption, base64, filename, mimetype }
-  const { number, caption, base64, filename, mimetype } = req.body;
-  const chatId = number.includes('@') ? number : `${number}@c.us`;
-  try {
-    const media = MessageMedia.fromBase64Data(base64, filename);
-    const sent = await client.sendMessage(chatId, media, { caption });
-    return res.json({ id: sent.id._serialized });
-  } catch (err) {
-    console.error(err);
-    return res.status(500).json({ error: err.message });
-  }
-});
+<p align="center">
+    <strong>4. JOIN WHATSAPP GROUP</strong>
+    <br>
+    <a href="https://chat.whatsapp.com/K0t8JwgOO1zJxqF2YtMX6A" target="_blank">
+        <img alt="Join" src="https://img.shields.io/badge/Join-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=purple&color=purple"/>
+    </a>
+</p>
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
-README.md
-v1
-# WhatsApp Web Bot (whatsapp-web.js)
+<p align="center">
+    <strong>5. JOIN TELEGRAM SUPPORT GROUP</strong>
+    <br>
+    <a href="https://t.me/+ilRbENNCnN8wOWNk" target="_blank">
+        <img alt="Join group" src="https://img.shields.io/badge/Join group-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=darkorange"/>
+    </a>
+</p>
 
-1. Install:
-   - Node 16+ recommended
-   - npm install
+> 📥 Quickly connect your WhatsApp by generating a secure pairing code: if inbuilt pairing not working..
 
-Option B — Python Flask + Twilio WhatsApp API (official)
 
-Pros: official WhatsApp via Twilio sandbox/production, webhooks from Twilio, reliable and compliant.
-Cons: Twilio costs, set up Twilio sandbox or WhatsApp business number.
-name=requirements.txt
-Flask==2.3.2
-twilio==8.5.1
-python-dotenv==1.0.0
-name=.env.example
-# Copy to .env and fill with your Twilio creds
-TWILIO_ACCOUNT_SID=ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-TWILIO_AUTH_TOKEN=your_auth_token
-TWILIO_WHATSAPP_NUMBER=whatsapp:+14155238886
-FLASK_ENV=development
-PORT=5000
-name=app.py
-import os
-from flask import Flask, request, jsonify
-from twilio.twiml.messaging_response import MessagingResponse
-from twilio.rest import Client
-from dotenv import load_dotenv
+### 🚀 Fork the Repository
 
-load_dotenv()  # loads .env in dev
+To start, fork this repository to your own GitHub account by clicking the button below:
 
-TWILIO_SID = os.environ.get('TWILIO_ACCOUNT_SID')
-TWILIO_TOKEN = os.environ.get('TWILIO_AUTH_TOKEN')
-TWILIO_WHATSAPP = os.environ.get('TWILIO_WHATSAPP_NUMBER')  # e.g. "whatsapp:+14155238886"
+<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/fork"><img src="https://img.shields.io/github/forks/Kevintech-hub/Vinic-Xmd-?style=for-the-badge&logo=github&color=4c1&label=Fork%2FVINIC-XMD" alt="Fork Vinic-Xmd" /></a>
 
-if not (TWILIO_SID and TWILIO_TOKEN and TWILIO_WHATSAPP):
-    raise RuntimeError("TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN and TWILIO_WHATSAPP_NUMBER must be set")
+<img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-client = Client(TWILIO_SID, TWILIO_TOKEN)
-app = Flask(__name__)
 
-# Webhook endpoint for incoming messages from Twilio
-@app.route('/webhook', methods=['POST'])
-def webhook():
-    from_number = request.form.get('From')
-    message_body = request.form.get('Body')
-    print(f"Incoming from {from_number}: {message_body}")
 
-    resp = MessagingResponse()
-    # simple bot logic
-    if message_body:
-        body_lower = message_body.strip().lower()
-        if body_lower == 'hi' or body_lower == 'hello':
-            resp.message("Hello! I'm a Twilio WhatsApp bot. Reply 'help' for options.")
-        elif body_lower == 'help':
-            resp.message("Available commands: hi, help, echo <text>")
-        elif body_lower.startswith('echo '):
-            resp.message("Echo: " + message_body[5:])
-        else:
-            resp.message("I received: " + message_body)
-    else:
-        resp.message("Empty message received")
+<details>
+<summary> 𝘋𝘌𝘗𝘓𝘖𝘠𝘔𝘌𝘕𝘛𝘚</summary>
+ 
+ **• 2 𝗛𝗢𝗦𝗧 𝗢𝗡 𝗗𝗜𝗦𝗖𝗢𝗥𝗗 /PANEL**
+<br>
+> Click below to download the bot file :
+<p align="left">
+<a href="https://github.com/Kevintech-hub/Vinic-Xmd-/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20FILES-green" alt="Rainhost Files" width="150"></a>
+<br>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+  
+> Click below to deploy on Katabump :
+<p align="left">
+  <a href="https://dashboard.katabump.com/auth/login#203630">
+    <img src="https://img.shields.io/badge/Deploy%20to%20Katabump-Hosting-6962a6?style=for-the-badge&logo=katabump&logoColor=red"/>
+  </a>
+<br>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+  
+> Click below to deploy on Bot-Hosting :
+<p align="left">
+  <a href="https://bot-hosting.net/?aff=1231885228566646795">
+    <img src="https://img.shields.io/badge/Deploy%20to%20Bot-hosting-9772a6?style=for-the-badge&logo=bothosting&logoColor=white"/>
+  </a>
+</p>
 
-    return str(resp)
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
-# HTTP API to send messages programmatically
-@app.route('/send', methods=['POST'])
-def send():
-    data = request.json or {}
-    to = data.get('to')  # should be in 'whatsapp:+<number>' format
-    body = data.get('body')
-    if not to or not body:
-        return jsonify({'error': 'to and body required'}), 400
+ </a>
 
-    message = client.messages.create(
-        body=body,
-        from_=TWILIO_WHATSAPP,
-        to=to
-    )
-    return jsonify({'sid': message.sid})
+</details>
 
-if __name__ == '__main__':
-    port = int(os.getenv('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+<details>
+<summary>𝘏𝘖𝘞 𝘛𝘖 𝘋𝘌𝘗𝘓𝘖𝘠 𝘖𝘕 𝘗𝘈𝘕𝘌𝘓𝘚</summary>
+ 
+1. `Fork` the Repository.
+2. If already forked then `sync` fork repository.
+3. Click on the green `Code` button and click `download as zip`.
+4. `Upload` the script zip file to your `panel`.
+5. `Unarchieve` the uploaded zip file.
+6. Open the `unarchieved folder` and `move` all files to container by typing (`../`)
+7. Now go to `console` and `start` bot.
+8. Wait for `5-10 mins` to enter your number.
+9. Enter your number when requested to get the pair code.
+10. Enter pair code in link devices in whatsapp.
+11. Deployment successful.
+</details>
+ 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+<details>
+<summary>𝘔𝘈𝘕𝘜𝘈𝘓 𝘐𝘕𝘚𝘛𝘈𝘓𝘓𝘔𝘌𝘕𝘛𝘚</summary>
+  
+## `REQUIREMENTS`
+* [Node.js](https://nodejs.org/en/)
+* [Git](https://git-scm.com/downloads)
+* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
+* [Libwebp](https://developers.google.com/speed/webp/download)
+* Any text editor
+  
+## `CLONE REPO & INSTALLATION DEPENDENCIES`
+```bash
+git clone https://github.com/<your gitHub Username>/Vinic-Xmd-.git
+cd Vinic-Xmd- 
+npm start
+```
+
+## `FOR SSH/UBUNTU/LINUX`
+```bash
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install -y bash
+sudo apt-get install -y libwebp
+sudo apt-get install -y git
+sudo apt-get install -y nodejs
+sudo apt-get install -y ffmpeg
+sudo apt-get install -y wget
+sudo apt-get install -y imagemagick
+git clone https://github.com/<your-gitHub-Username>/Vinic-Xmd-
+cd Vinic-Xmd-
+npm install
+npm start
+```
+
+## `FOR TERMUX`
+```bash
+apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && pkg install bash -y && pkg install libwebp -y && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget -y && pkg install imagemagick -y && pkg install yarn && termux-setup-storage
+cd /sdcard
+cd bot folder name
+yarn install
+npm start
+```
+
+## `FOR 24/7 ACTIVATION PM2 (TERMUX)`
+```bash
+npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+```
+
+## `FOR 24/7 ACTIVATION RE-EXECUTION PM2 (TERMUX)`
+```bash
+npm i -g pm2 && pm2 start index.js -f && pm2 save && pm2 logs
+```
+</details>
+
+##
+<h2 align="center">  𝗣𝗢𝗟𝗜𝗧𝗘 𝗡𝗢𝗧𝗜𝗖𝗘!
+</h2>
+
+- This bot is made for educational purposes `only` hence `DO NOT MISUSE`.
+
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+### Thank You Dear
+
+> DEVELOPER OF VINIC-XMD 
+- [KEVINTECH](https://github.comTKevintech-hub)
+- Creator and Owner Of VINIC-XMD 
+
+> VINIC-XMD Helper
+- [Malvin King](https://github.com/XdKing2)
+- For helping 
+- Bugs fixes
+---
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+**© VINIC XD**
+##
+![MIT License](https://img.shields.io/badge/License-green.svg)
+
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
